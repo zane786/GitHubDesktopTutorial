@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ItsSpade's Super Scoreboard</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <main>
+        <div class="titles">
+            <h1>HOME</h1>
+            <h1>GUEST</h1>
+        </div>
+
+        
+            <div class="scores">
+                <div class="scoresOne">
+                    <h1 class="scoreText" id="homeScoreText">00</h1>
+                </div>
+                <div class="scoresTwo">
+                    <h1 class="scoreText" id="guestScoreText">00</h1>
+                </div>
+            </div>
+        
+        <div class="buttonAll">
+            <div class="buttonGroupOne">
+                <button onclick="oneHome()" class="button" id="H1">+1</button>
+                <button onclick="twoHome()" class="button" id="H2">+2</button>
+                <button onclick="threeHome()" class="button" id="H3">+3</button>
+            </div>
+            
+            <div class="buttonGroupTwo">
+                <button onclick="oneGuest()" class="button" id="G1">+1</button>
+                <button onclick="twoGuest()" class="button" id="G2">+2</button>
+                <button onclick="threeGuest()" class="button" id="G3">+3</button>
+            </div>
+        </div>
+        
+            <div class="resetButton">
+                <button onclick="resetScores()" class="button" id="resetButton">RESET</button>
+            </div>
+        
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

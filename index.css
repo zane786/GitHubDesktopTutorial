@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(CursedTimer.ttf);
+}
+
+body {
+    background: #27292c;
+    color: white;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+
+
+.titles {
+    display: flex;
+    gap: 100px;
+margin-left: 185px;
+    padding-bottom: 15px;
+}
+
+.scores {
+    display: flex;
+    gap: 145px;
+    margin-left: 200px;
+}
+
+.scoreText {
+    background: black;
+    font-family: "CustomFont";
+    scale: 3;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: tomato;
+    border-radius: 3px;
+}
+
+.buttonGroupOne {
+    margin-top: 50px;
+}
+
+.buttonGroupTwo {
+    margin-top: 50px;
+}
+
+.buttonAll {
+    display: flex;
+    gap: 90px;
+    margin-left: 175px;
+}
+
+.button {
+    background-color: transparent;
+    color:lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    font-family: "CustomFont";
+    padding: 5px;
+    scale: 1;
+    border-radius: 5px;
+}
+
+.resetButton {
+    display: flex;
+    gap: 90px;
+    margin-top: 15px;
+    margin-left: 300px;
+}
+
+main {
+    margin: 0 auto;
+    width: 50%;
+}
